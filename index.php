@@ -34,7 +34,7 @@
 
     # strpos() & substr()
     $lokasi = strpos($nomatrik, 'F') + 1;
-    $bilangan = substr($nomatrik, $lokasi, 2);
+    $bilangan = substr($nomatrik, $lokasi);
     echo "<p>Bilangan: $bilangan</p>";
 
     ?>
